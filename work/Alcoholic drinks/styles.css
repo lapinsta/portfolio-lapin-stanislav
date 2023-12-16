@@ -1,0 +1,266 @@
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.alc {
+  font-size: 2.6em;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Lobster', sans-serif;
+  padding: 10px;
+}
+
+.nav-link {
+  font-size: 1.3em;
+  letter-spacing: -1.5px;
+}
+
+.menu > li {
+  border: 2px solid rgb(231, 231, 231);
+  margin: 5px;
+  padding: 2px;
+  background: rgb(231, 231, 231);
+}
+
+.menu > li:active {
+  border: 2px solid rgb(209, 209, 209);
+  margin: 5px;
+  padding: 2px;
+  background: rgb(209, 209, 209);
+}
+
+.menu {
+  list-style-type: none;
+  width: 240px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display:block;
+  font-weight: bold;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  max-width: 250px;
+  height: 100%;
+  border-right: 3px solid rgb(159, 159, 159);
+  background: rgb(237, 237, 237);
+}
+
+@media only screen and (max-width: 815px) {
+  .menu {
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    background: rgb(237, 237, 237);
+    position: relative;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    max-height: 280px;
+    border: none;
+    z-index: 1;
+    border-bottom: 3px solid rgb(159, 159, 159);
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #navbar {
+    background: rgb(237, 237, 237);
+    position: relative;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    max-height: 350px;
+    border: none;
+    z-index: 1;
+    border-bottom: 3px solid rgb(159, 159, 159);
+  }
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 280px;
+  padding: 30px;
+  margin-bottom: 110px;
+}
+
+@media only screen and (max-width: 815px) {
+  #main-doc {
+    position: relative;
+    margin-left: 0;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+section {
+  display: block;
+  margin: 0 auto;
+}
+
+figure {
+  display: block; 
+  width: 150px; 
+  height: 230px; 
+  float: left; 
+  margin: 0 20px 20px 0; 
+  text-align: center;
+}
+
+img {
+  width: 80px;
+  height: 200px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 20px 0 40px 0;
+}
+
+figcaption {
+  font-size: 0.7em;
+}
+
+.blocks {
+  display: inline-block;
+  margin: 0;
+}
+
+code {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.facts > li {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.facts {
+  margin: 0 20px;
+  max-width: 900px;
+}
+
+@media only screen and (max-width: 815px){
+  .back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 15px;
+    color: #fff;
+    background: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .back-to-top:hover {
+    background: #333;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 815px) {
+  .back-to-top {
+    display: none;
+  }
+}
+
+.category {
+  padding:20px;
+  font-size: 1.9em;
+}
+
+p {
+  text-indent: 40px;
+  margin: 10px 10px;
+  text-align: justify;
+}
+
+.modal_age {
+  display: none;
+}
+
+.modal_age_wrap {
+  min-width: 200px;
+}
+
+#info_age_modal {
+max-width: 320px;
+background: #d4d4d4;
+padding: 25px;
+border-radius: 5px;
+}
+
+.modal_title {
+text-align: center;
+color: #131313;
+font-size: 15px;
+margin-bottom: 15px;
+}
+
+.modal_age_text {
+  text-align: center;
+}
+
+.pcenter{
+  text-align: center;
+  text-indent: unset;
+}
+
+.modal_age_text span{
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(198, 32, 32);
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.modal_age_but {
+  text-align: center;
+  margin-top: 15px;
+}
+.modal_but_yes, .modal_but_no {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: #eee;
+  cursor: pointer;
+  justify-content: space-between;
+  font-weight: bold;
+}

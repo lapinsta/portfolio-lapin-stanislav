@@ -1,0 +1,98 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background: #f3f3f3;
+  color: #323232;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px 0 0 0;
+  padding: 70px 40px 0 40px;
+}
+
+#signature {
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+main {
+  margin: 30px auto;
+  width: 95%;
+  border-radius: 5px;
+  background-color:#eaeaea;
+}
+
+#img-caption {
+  font-size: 10px;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+
+#img-div {
+  background: #f3f3f3;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 620px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#shavarsh {
+  max-width: 25%;
+  min-width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
+
+section > p {
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+ul {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 30px;
+}
+
+h3 {
+  max-width: 500px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  color: rgb(152, 152, 152);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(113, 113, 113);
+}
+
+a:hover {
+  color: rgb(203, 203, 203);
+}
+
+.story {
+  text-align: justify;
+  text-indent: 30px;
+}

@@ -1,0 +1,78 @@
+body {
+    width: 90%;
+    min-width: 250px;
+    max-width: 400px;
+    height: 100vh;
+    margin: auto;
+    font-size: 18px;
+    background: linear-gradient(#437898, #e8a9a9) fixed;
+  }
+  
+  textarea {
+    background-color: rgb(235, 240, 255);
+    resize: none;
+    width: 100%;
+  }
+  
+  h1 {
+    font-family: Tahoma;
+    text-align: center;
+    color: rgb(36, 36, 53);
+    margin: 2em 0 0 0;
+  }
+  
+  fieldset {
+    border: none;
+    margin: 1em;
+  }
+  
+  form {
+    background-color: rgba(36, 36, 53, 0.3);
+    color: rgb(235, 240, 255);
+    padding: 1em;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  p.thank {
+    text-align: center;
+    color: rgb(36, 36, 53);
+  }
+  
+  footer {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  p, label{
+    font-family: Arial;
+    font-size: 16px;
+  }
+  
+  .radio, .checkbox{
+    vertical-align: inherit;
+    margin:0 0.5em 0 0;
+  }
+  
+  input.info {
+    width: 100%;
+  }
+  
+  select {
+    width: 100%;
+    height: 21px;
+  }
+  
+  button {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(36, 36, 53);
+    color: rgb(235, 240, 255);
+    border: none;
+  }
+  
+  .rights {
+    font-size: 14px;
+  }
